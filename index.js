@@ -75,3 +75,4 @@ function start(file) {
 }
 
 start('main.js')
+require("http").createServer((_, res) => res.end("XfredBot")).listen(8080)
